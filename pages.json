@@ -1,0 +1,143 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		//登录页
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"bounce":"none",
+				"scrollIndicator":"none"
+			}
+		},
+		{
+			"path": "pages/manager/managerIndex/managerIndex",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},
+		//记账系统主页面
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"bounce":"none",
+				"scrollIndicator":"none"
+			}
+			
+		},
+		
+		//企业充值清单页面
+		{
+			"path": "pages/annal/RechargeList/RechargeList",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业充值清单详情
+		{
+			"path": "pages/annal/RechargeItem/RechargeItem",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业扫码充值
+		{
+			"path": "pages/annal/RechargeOrder/RechargeOrder",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业扫码充值清单详情
+		{
+			"path": "pages/annal/RechargeOrderList/RechargeOrderList",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业扫码充值并打印清单详情
+		{
+			"path": "pages/annal/RechargeOrderPrint/RechargeOrderPrint",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},
+		//企业加油清单页面
+		{
+			"path": "pages/annal/oilList/oilList",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业/挂靠驾驶员加油流水清单详情
+		{
+			"path": "pages/annal/oilItem/oilItem",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业加油信息填写页面
+		{
+			"path": "pages/annal/oilOrder/oilOrder",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业加油成功页面
+		{
+			"path": "pages/annal/oilOrderList/oilOrderList",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+			
+		},
+		//企业加油打印页面
+		{
+			"path": "pages/annal/oilOrderPrint/oilOrderPrint",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},
+		//每日油价管理页面
+		{
+			"path": "pages/manager/oilPrice/oilPrice",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},
+		
+		//企业加油管理员页面
+		
+		//企业加油管理员管理
+		{
+			"path": "pages/manager/admin/admin",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},
+		//企业加油管理员详情
+		{
+			"path": "pages/manager/adminInfo/adminInfo",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents":{
+			"headerNav":"/components/headerNav/headerNav"
+		}
+		
+		
+	}
+}
