@@ -7,8 +7,8 @@ import Crypto from '@/common/oss/crypto.js';
     import config from '@/common/oss/config.js'
 
     const uploadFileSize = 1024 * 1024 * 100; // 上传文件的大小限制100m
-    const accesskey = 'LMzo6CAw8KAJsPwBh352Y1DQOh3obj'; // 自己去申请
-    const accessId = 'LTAI4GDGEKa3eWzE6cXfHxfJ' // 自己去申请
+    const accesskey = ''; // 自己去申请
+    const accessId = '' // 自己去申请
 
     export default {
         _getPolicy() {
